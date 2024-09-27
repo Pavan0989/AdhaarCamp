@@ -1,0 +1,107 @@
+.document-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #333;
+}
+
+.header img {
+  width: 100px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.header-content p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.reference-date p,
+.letter-body p,
+.letter-footer p,
+.copy-to p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.letter-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.letter-body table th,
+.letter-body table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+.letter-body table th {
+  background-color: #f5f5f5;
+}
+
+.letter-footer,
+.copy-to {
+  margin-top: 20px;
+}
+
+.copy-to ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.footer a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.print-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.print-button button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.print-button button:hover {
+  background-color: #0056b3;
+}
